@@ -32,22 +32,22 @@
 		<header>
 			<nav class="h-16">
 				<div id="mobile">
-			    	<ul class="h-16 flex items-center justify-around content-center md:hidden">
+			    	<ul class=" h-16 flex items-center justify-around content-center md:hidden">
 						<ls><a href=""><img src="/images/ic-logo.svg" alt="Logo" class=""></a></ls>
 						<ls><a href=""><img src="/images/ic-on-campus.svg" alt="campus"></a></ls>
 						<ls><a href=""><img src="/images/ic-online.svg" alt="online"></a></ls>
 						<ls><a href=""><img src="/images/ic-login.svg" alt="login"></a></ls>
 					</ul>
 				</div>
-				<div id="destop" class="h-16 flex justify-between items-center ">
-						<div id="Logo" class=" hidden md:flex items-center h-8  ml-6 ">
+				<div id="destop" class="hidden  md:flex justify-between items-center h-16">
+						<div id="Logo" class="md:flex items-center h-8  ml-6 ">
 							<img src="/images/ic-logo.svg" alt="Logo">
 							<h1 class="">
 								<span class="font-bold">COLMAR</span><span class="tracking-tighter">ACADEMY</span>
 							</h1>
 						</div>
 						<div id="menu" class="mr-6">
-							<ul class="hidden   md:flex items-center gap-4">
+							<ul class="md:flex items-center gap-4">
 								<ls><a href="">On canmpus</a></ls>
 								<ls><a href="">Online </a></ls>
 								<ls><a href="">or companies</a></ls>
@@ -58,18 +58,42 @@
 			</nav>
 		</header>
 		<main>
-			<section class="hero">
-				<div id="img1">
+			<section class="hero  flex flex-col  md:flex-row items-center bg-gray-300">
+				<div id="img1" class="my-8 mx-6 w-3/5">
 					<img src="/images/banner.jpg" alt="">
 				</div>
-				<div class="Preview">
-					<h2>Learn something new everyday</h2>
+				<div class="Preview text-gray-600">
+					<h2 class="font-bold text-3xl">Learn something <br> new everyday</h2>
 					<br>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p>Lorem ipsum dolor sit amet<br>consectetur adipisicing elit.</p>
+					<br>
+					<button class="bg-gray-600 w-full text-white h-8 ">Start here</button>
 				</div>
-
 			</section>
-			<section>
+			<section class="information">
+				<div>
+					<img src="/images/information-orientation.jpg" alt="">
+					<h2>It doesn't hurt to keep practicing</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sapiente et facere autem ratione nemo, quos corporis, excepturi mollitia adipisci, dignissimos dolorum amet molestias iste? Impedit facilis dolorum ex ipsa iste?</p>
+					<p>Emanuel, Sr Strategist at Hiring.com</p>
+				</div>
+				<div>
+					<div>
+						<img src="/images/information-guest-lecture.jpg" alt="">
+						<p>Orientation date</p>
+						<a href=""></a>
+					</div>
+					<div>
+						<img src="/images/information-campus.jpg" alt="">
+						<p>Our campus</p>
+						<a href=""></a>
+					</div>
+					<div>
+						<img src="/images/information-guest-lecture.jpg" alt="">
+						<p>Our guest lecture</p>
+						<a href=""></a>
+					</div>
+				</div>
 
 			</section>
 			<section>
