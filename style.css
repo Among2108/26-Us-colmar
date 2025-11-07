@@ -7,8 +7,22 @@
 .Iwant a {
     color: rgb(37, 37, 245);
 }
+.Choice div { background-color: #ffffff;
+    }
 
 
-    border-width: 20px;
-    background-color: #000000;
+    .Destopclass {
+    background-color: #ececec;
+}
+
+.Choice {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 32px;
+    /* margin: 32px 72px; */
+   }
+
+.Choice h3 {
+    font-weight: 700;
+    margin-top: 16px;
 }
